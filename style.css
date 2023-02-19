@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Cairo:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: #3a3a3a;
+  font-family: "Bungee";
+}
+
+p {
+  font-family: "Cairo";
+  color: #4b4f58;
+}
+
+.container1 {
+  padding: 7rem 10rem;
+}
+
+.container2 {
+  padding: 2rem 13rem;
+}
+
+.container3 {
+  padding: 2rem 16rem;
+}
+
+/***********************
+hero sekcija
+************************/
+.hero {
+  background-color: #f3c242;
+  display: flex;
+  padding: 7rem 10rem;
+  height: 100vh;
+}
+.hero .levi h1, .hero .levi h3 {
+  color: #3a3a3a;
+  font-family: "Bungee";
+}
+.hero .levi h3 {
+  font-size: 24px;
+}
+.hero .levi h1 {
+  font-size: 75px;
+  line-height: 5rem;
+}
+.hero .levi p {
+  font-family: "Cairo";
+  color: #4b4f58;
+  margin: 2rem auto;
+}
+.hero .levi a {
+  color: #3a3a3a;
+  font-family: "Bungee";
+  text-decoration: none;
+}
+.hero .levi .party {
+  color: white;
+  background-color: #3a3a3a;
+  padding: 0.25rem 3.5rem;
+  margin-right: 2rem;
+}
+.hero .levi .party:hover {
+  background-color: black;
+}
+.hero .levi .pub {
+  background-color: white;
+  padding: 0.25rem 2rem;
+}
+.hero .levi .pub:hover {
+  color: white;
+  background-color: black;
+}
+.hero .desni img {
+  width: 70%;
+  margin-left: 12rem;
+}
+
+/***********************
+fix
+************************/
+.fix {
+  position: fixed;
+  padding: 0.8rem 1.5rem;
+  background-color: white;
+  right: 0;
+  top: 35%;
+}
+.fix i {
+  color: blue;
+  margin-right: 0.5rem;
+}
+.fix a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Cairo";
+}
+
+.fix:hover {
+  background-color: blue;
+}
+.fix:hover i:hover {
+  color: white;
+}
+.fix:hover a:hover {
+  color: white;
+}
+
+/***********************
+godine
+************************/
+.godine .gornji {
+  display: flex;
+  padding: 7rem 10rem;
+}
+.godine .gornji .prvi {
+  flex: 1;
+}
+.godine .gornji .prvi img {
+  width: 100%;
+  height: 400px;
+}
+.godine .gornji .drugi {
+  flex: 1;
+  padding-left: 13rem;
+}
+.godine .gornji .drugi h2 {
+  color: #3a3a3a;
+  font-family: "Bungee";
+  font-size: 50px;
+  line-height: 3.3rem;
+}
+.godine .gornji .drugi p {
+  font-family: "Cairo";
+  color: #4b4f58;
+  margin-top: 1.5rem;
+}
+.godine .donji {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+.godine .donji h2 {
+  color: #3a3a3a;
+  font-family: "Bungee";
+  text-align: center;
+  font-size: 32px;
+}
+.godine .donji p {
+  font-family: "Cairo";
+  color: #4b4f58;
+  text-align: center;
+  padding: 2rem 0;
+}
+.godine .donji i {
+  margin-left: 50%;
+  padding: 1rem 0;
+}
+
+/***********************
+premium
+************************/
+.beer .premium h2 {
+  color: #3a3a3a;
+  font-family: "Bungee";
+  text-align: center;
+  font-size: 50px;
+  line-height: 3.3rem;
+  padding: 7rem 0 1rem;
+}
+.beer .premium p {
+  font-family: "Cairo";
+  color: #4b4f58;
+  text-align: center;
+  padding: 1rem 0 7rem;
+}
+
+/***********************
+cetiri
+************************/
+.cetiri {
+  height: 140vh;
+  padding: 0 13rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cetiri .mojaPrva {
+  flex: 50%;
+}
+.cetiri .mojaPrva img {
+  width: 80%;
+  padding: 4rem;
+}
+.cetiri .mojaDruga {
+  flex: 50%;
+  background-color: rgb(246, 246, 246);
+  padding: 3rem 2rem;
+}
+.cetiri .mojaDruga h2 {
+  font-size: 42px;
+  color: #f3c242;
+}
+.cetiri .mojaDruga .procenti {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cetiri .mojaDruga .procenti .ex {
+  flex: 50%;
+}
+.cetiri .mojaDruga .procenti .al {
+  flex: 50%;
+}
+.cetiri .mojaDruga .procenti .ge {
+  flex: 50%;
+}
+.cetiri .mojaDruga .procenti .st {
+  flex: 50%;
+}
+.cetiri .tvojaPrva {
+  flex: 50%;
+  background-color: rgb(246, 246, 246);
+  padding: 3rem 2rem;
+}
+.cetiri .tvojaPrva h2 {
+  font-size: 42px;
+  color: #3a3a3a;
+}
+.cetiri .tvojaPrva .procenti {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cetiri .tvojaPrva .procenti .ex {
+  flex: 50%;
+}
+.cetiri .tvojaPrva .procenti .al {
+  flex: 50%;
+}
+.cetiri .tvojaPrva .procenti .ge {
+  flex: 50%;
+}
+.cetiri .tvojaPrva .procenti .st {
+  flex: 50%;
+}
+.cetiri .tvojaDruga {
+  flex: 50%;
+}
+.cetiri .tvojaDruga img {
+  width: 80%;
+  padding: 4rem;
+}
+
+/***********************
+ingredients
+************************/
+.ingredients {
+  padding: 2rem 16rem;
+}
+.ingredients h2 {
+  color: #3a3a3a;
+  font-family: "Bungee";
+  text-align: center;
+  font-size: 50px;
+  line-height: 3.3rem;
+  padding: 7rem 0 1rem;
+}
+.ingredients p {
+  font-family: "Cairo";
+  color: #4b4f58;
+  text-align: center;
+  padding: 1rem 0 7rem;
+}
+.ingredients .features {
+  display: flex;
+}
+.ingredients .features img {
+  flex: 40%;
+  width: 80%;
+}
+.ingredients .features .sastojci {
+  flex: 60%;
+  margin-top: 5rem;
+}
+.ingredients .features .sastojci p {
+  padding: 0 2rem;
+  margin-top: 2rem;
+  text-align: start;
+}
+.ingredients .features .sastojci .krigla {
+  display: flex;
+}
+.ingredients .features .sastojci .krigla img {
+  width: 10%;
+  height: 50%;
+  margin-top: 2rem;
+}
+.ingredients .features .sastojci .list {
+  display: flex;
+}
+.ingredients .features .sastojci .list img {
+  width: 10%;
+  height: 50%;
+  margin-top: 2rem;
+}
+.ingredients .features .sastojci .zrno {
+  display: flex;
+}
+.ingredients .features .sastojci .zrno img {
+  width: 10%;
+  height: 50%;
+  margin-top: 2rem;
+}
+.ingredients .ostatak {
+  display: flex;
+  margin-top: 5rem;
+  gap: 8rem;
+}
+.ingredients .ostatak p {
+  text-align: start;
+  margin-left: 1rem;
+}
+.ingredients .ostatak .kap {
+  display: flex;
+}
+.ingredients .ostatak .kap img {
+  width: 20%;
+  height: 20%;
+  margin-top: 1rem;
+}
+.ingredients .ostatak .plod {
+  display: flex;
+}
+.ingredients .ostatak .plod img {
+  width: 20%;
+  height: 20%;
+  margin-top: 1rem;
+}
+.ingredients .ostatak .flasa {
+  display: flex;
+}
+.ingredients .ostatak .flasa img {
+  width: 20%;
+  height: 20%;
+  margin-top: 1rem;
+}
+
+/***********************
+choose
+************************/
+.choose {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+}
+.choose .flavour {
+  flex: 50%;
+  padding-right: 5rem;
+}
+.choose .flavour img {
+  padding-top: 3rem;
+}
+.choose .your {
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+  flex: 50%;
+}
+.choose .your h2 {
+  text-align: start;
+}
+.choose .your p {
+  text-align: start;
+}
+.choose .your a {
+  padding: 0.25rem 2rem;
+  background-color: #f3c242;
+  text-decoration: none;
+}
+.choose .your a:hover {
+  background-color: #fcb900;
+}
+
+/***********************
+fiksna pozadina
+************************/
+.fiksnaPozadina {
+  height: 80vh;
+  background-image: url(images/video-bg.jpg);
+  background-attachment: fixed;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.fiksnaPozadina h2 {
+  color: white;
+}
+.fiksnaPozadina p {
+  color: white;
+  text-align: center;
+}
+.fiksnaPozadina i {
+  padding: 1rem;
+  background-color: #f3c242;
+  border-radius: 50%;
+  color: #3a3a3a;
+}
+.fiksnaPozadina i:hover {
+  background-color: #fcb900;
+}
+
+/***********************
+instagram
+************************/
+.instagram .naslov {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.instagram h2 {
+  font-size: 40px;
+}
+.instagram a {
+  margin-top: 6rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background-color: #f3c242;
+}
+.instagram a:hover {
+  background-color: #fcb900;
+}
+.instagram .slicice {
+  display: flex;
+  justify-content: space-between;
+}
+.instagram .slicice img {
+  width: 19%;
+}
+
+/***********************
+poslednji
+************************/
+.poslednji {
+  height: 80vh;
+  margin-top: 5rem;
+  display: flex;
+}
+.poslednji .girls {
+  background-image: linear-gradient(rgba(75, 79, 88, 0.6), rgba(75, 79, 88, 0.6)), url(images/beer-party.jpg);
+}
+.poslednji h2, .poslednji p {
+  color: white;
+}
+.poslednji a {
+  padding: 0.25rem 2rem;
+  background-color: #f3c242;
+  text-decoration: none;
+  margin-left: 10rem;
+}
+.poslednji a:hover {
+  background-color: #fcb900;
+}
+.poslednji .restock {
+  background-image: linear-gradient(rgba(75, 79, 88, 0.6), rgba(75, 79, 88, 0.6)), url(images/bar-restock.jpg);
+}/*# sourceMappingURL=style.css.map */
